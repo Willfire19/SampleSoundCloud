@@ -1,0 +1,305 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84057CB5179738A100BFABAA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84057CB4179738A100BFABAA /* UIKit.framework */; };
+		84057CB7179738A100BFABAA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84057CB6179738A100BFABAA /* Foundation.framework */; };
+		84057CB9179738A100BFABAA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84057CB8179738A100BFABAA /* CoreGraphics.framework */; };
+		84057CBF179738A100BFABAA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 84057CBD179738A100BFABAA /* InfoPlist.strings */; };
+		84057CC1179738A100BFABAA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84057CC0179738A100BFABAA /* main.m */; };
+		84057CC5179738A100BFABAA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84057CC4179738A100BFABAA /* AppDelegate.m */; };
+		84057CC7179738A100BFABAA /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 84057CC6179738A100BFABAA /* Default.png */; };
+		84057CC9179738A100BFABAA /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84057CC8179738A100BFABAA /* Default@2x.png */; };
+		84057CCB179738A100BFABAA /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84057CCA179738A100BFABAA /* Default-568h@2x.png */; };
+		84057CCE179738A100BFABAA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84057CCD179738A100BFABAA /* ViewController.m */; };
+		84057CD1179738A100BFABAA /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84057CCF179738A100BFABAA /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		84057CB1179738A100BFABAA /* SampleSoundCloud.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleSoundCloud.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84057CB4179738A100BFABAA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		84057CB6179738A100BFABAA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		84057CB8179738A100BFABAA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		84057CBC179738A100BFABAA /* SampleSoundCloud-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SampleSoundCloud-Info.plist"; sourceTree = "<group>"; };
+		84057CBE179738A100BFABAA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		84057CC0179738A100BFABAA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		84057CC2179738A100BFABAA /* SampleSoundCloud-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SampleSoundCloud-Prefix.pch"; sourceTree = "<group>"; };
+		84057CC3179738A100BFABAA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		84057CC4179738A100BFABAA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		84057CC6179738A100BFABAA /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		84057CC8179738A100BFABAA /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		84057CCA179738A100BFABAA /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		84057CCC179738A100BFABAA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		84057CCD179738A100BFABAA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		84057CD0179738A100BFABAA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84057CAE179738A100BFABAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84057CB5179738A100BFABAA /* UIKit.framework in Frameworks */,
+				84057CB7179738A100BFABAA /* Foundation.framework in Frameworks */,
+				84057CB9179738A100BFABAA /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84057CA8179738A100BFABAA = {
+			isa = PBXGroup;
+			children = (
+				84057CBA179738A100BFABAA /* SampleSoundCloud */,
+				84057CB3179738A100BFABAA /* Frameworks */,
+				84057CB2179738A100BFABAA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84057CB2179738A100BFABAA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84057CB1179738A100BFABAA /* SampleSoundCloud.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84057CB3179738A100BFABAA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				84057CB4179738A100BFABAA /* UIKit.framework */,
+				84057CB6179738A100BFABAA /* Foundation.framework */,
+				84057CB8179738A100BFABAA /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		84057CBA179738A100BFABAA /* SampleSoundCloud */ = {
+			isa = PBXGroup;
+			children = (
+				84057CC3179738A100BFABAA /* AppDelegate.h */,
+				84057CC4179738A100BFABAA /* AppDelegate.m */,
+				84057CCC179738A100BFABAA /* ViewController.h */,
+				84057CCD179738A100BFABAA /* ViewController.m */,
+				84057CCF179738A100BFABAA /* ViewController.xib */,
+				84057CBB179738A100BFABAA /* Supporting Files */,
+			);
+			path = SampleSoundCloud;
+			sourceTree = "<group>";
+		};
+		84057CBB179738A100BFABAA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84057CBC179738A100BFABAA /* SampleSoundCloud-Info.plist */,
+				84057CBD179738A100BFABAA /* InfoPlist.strings */,
+				84057CC0179738A100BFABAA /* main.m */,
+				84057CC2179738A100BFABAA /* SampleSoundCloud-Prefix.pch */,
+				84057CC6179738A100BFABAA /* Default.png */,
+				84057CC8179738A100BFABAA /* Default@2x.png */,
+				84057CCA179738A100BFABAA /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84057CB0179738A100BFABAA /* SampleSoundCloud */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84057CD4179738A100BFABAA /* Build configuration list for PBXNativeTarget "SampleSoundCloud" */;
+			buildPhases = (
+				84057CAD179738A100BFABAA /* Sources */,
+				84057CAE179738A100BFABAA /* Frameworks */,
+				84057CAF179738A100BFABAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SampleSoundCloud;
+			productName = SampleSoundCloud;
+			productReference = 84057CB1179738A100BFABAA /* SampleSoundCloud.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84057CA9179738A100BFABAA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = CoshX;
+			};
+			buildConfigurationList = 84057CAC179738A100BFABAA /* Build configuration list for PBXProject "SampleSoundCloud" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 84057CA8179738A100BFABAA;
+			productRefGroup = 84057CB2179738A100BFABAA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84057CB0179738A100BFABAA /* SampleSoundCloud */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84057CAF179738A100BFABAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84057CBF179738A100BFABAA /* InfoPlist.strings in Resources */,
+				84057CC7179738A100BFABAA /* Default.png in Resources */,
+				84057CC9179738A100BFABAA /* Default@2x.png in Resources */,
+				84057CCB179738A100BFABAA /* Default-568h@2x.png in Resources */,
+				84057CD1179738A100BFABAA /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84057CAD179738A100BFABAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84057CC1179738A100BFABAA /* main.m in Sources */,
+				84057CC5179738A100BFABAA /* AppDelegate.m in Sources */,
+				84057CCE179738A100BFABAA /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		84057CBD179738A100BFABAA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84057CBE179738A100BFABAA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		84057CCF179738A100BFABAA /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84057CD0179738A100BFABAA /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84057CD2179738A100BFABAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		84057CD3179738A100BFABAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84057CD5179738A100BFABAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SampleSoundCloud/SampleSoundCloud-Prefix.pch";
+				INFOPLIST_FILE = "SampleSoundCloud/SampleSoundCloud-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		84057CD6179738A100BFABAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SampleSoundCloud/SampleSoundCloud-Prefix.pch";
+				INFOPLIST_FILE = "SampleSoundCloud/SampleSoundCloud-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84057CAC179738A100BFABAA /* Build configuration list for PBXProject "SampleSoundCloud" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84057CD2179738A100BFABAA /* Debug */,
+				84057CD3179738A100BFABAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84057CD4179738A100BFABAA /* Build configuration list for PBXNativeTarget "SampleSoundCloud" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84057CD5179738A100BFABAA /* Debug */,
+				84057CD6179738A100BFABAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84057CA9179738A100BFABAA /* Project object */;
+}
